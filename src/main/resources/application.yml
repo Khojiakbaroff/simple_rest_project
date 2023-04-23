@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: admin
+    password: 12345
+    url: jdbc:postgresql://localhost:5432/my_db
+  jpa:
+    open-in-view: false
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
